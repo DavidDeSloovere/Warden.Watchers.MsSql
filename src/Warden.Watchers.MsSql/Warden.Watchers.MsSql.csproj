@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <PackageId>Warden.Watchers.MsSql</PackageId>
+    <Version>1.3.2</Version>
+    <Authors>Piotr Gankiewicz</Authors>
+    <Product>Warden.Watchers.MsSql</Product>
+    <Company />
+    <Description />
+    <Copyright>Copyright ©  2016</Copyright>
+    <PackageLicenseUrl>https://github.com/warden-stack/Warden.Watchers.MsSql/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://getwarden.net</PackageProjectUrl>
+    <PackageTags>Warden</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.50.2" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.3.0" />
+    <PackageReference Include="Warden" Version="1.3.2" />
+  </ItemGroup>
+
+</Project>
