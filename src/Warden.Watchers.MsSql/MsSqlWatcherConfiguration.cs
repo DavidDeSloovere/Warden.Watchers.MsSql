@@ -67,7 +67,7 @@ namespace Warden.Watchers.MsSql
                 var sqlConnectionStringBuilder = new SqlConnectionStringBuilder(connectionString);
                 Database = sqlConnectionStringBuilder.InitialCatalog;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 throw new ArgumentException("MSSQL connection string is invalid.", nameof(connectionString));
             }
